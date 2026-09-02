@@ -1,0 +1,11 @@
+*.ts linguist-detectable
+
+app/*.tsx linguist-detectable
+
+*.htm linguist-vendored
+
+*.svg text
+dist/* linguist-vendored
+public/* linguist-vendored
+*.jpg binary
+Cargo.lock linguist-generated
